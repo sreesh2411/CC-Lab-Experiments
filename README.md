@@ -42,3 +42,8 @@ A key experiment demonstrating data processing at scale. The `health_violations.
 spark-submit health_violations.py \
     --data_source s3://YOUR-BUCKET/food_establishment_data.csv \
     --output_uri s3://YOUR-BUCKET/restaurant_violation_results
+```
+The script outputs the top 10 offending restaurants into a designated S3 output bucket.
+
+## 📝 Lab Reports & Documentation
+Each weekly folder contains detailed PDF reports (e.g., `PES1201801580(WEEK_X).pdf`) alongside a `Screenshots` directory. These document the step-by-step execution, AWS console configurations, and the final expected outputs for each lab assignment.
